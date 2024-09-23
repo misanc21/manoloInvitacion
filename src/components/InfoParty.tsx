@@ -2,7 +2,7 @@ import flags from "../assets/flags.png";
 import manuel from "../assets/manuelSebastian.jpeg";
 import imageInfo from "../assets/plimInfo.jpg";
 import plim from "../assets/plim-title.jpg";
-import Whatsapp from "../assets/WhatsAppIcon.png";
+import Whatsapp from "../assets/whatsAppIcon.png";
 
 import {
   ImgStyled,
