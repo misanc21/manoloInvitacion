@@ -27,6 +27,15 @@ export const ImgStyled = styled.img`
   &.photo {
     width: -webkit-fill-available;
   }
+
+  &.img-map-plim {
+    border-radius: 8px 8px 0 0 ;
+    width: 75px;
+  }
+
+  &.whatsapp-logo {
+    width: 80px;
+  }
 `;
 
 export const SpanStyled = styled.span`
@@ -48,6 +57,10 @@ export const FlexStyled = styled(Flex)`
     top: -185px;
     font-size: 60px;
   }
+
+  &.map-container{
+    background-color: #5ea345;
+  }
 `;
 
 export const CardStyled = styled(Card)`
@@ -56,7 +69,7 @@ export const CardStyled = styled(Card)`
     display: flex;
     font-family: "Comfortaa", sans-serif;
     justify-content: center;
-    margin-top: -231px;
+    margin-top: -232px;
     position: relative;
     top: -35px;
     width: 80%;
@@ -64,10 +77,23 @@ export const CardStyled = styled(Card)`
 `;
 
 export const TextStyled = styled(Text)`
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+
   &.text-info {
     color: #5e9c2f;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 900;
     text-align: justify;
+  }
+
+  &.title-map-text {
+    color: white;
+  }
+`;
+
+export const IframeStyled = styled.iframe`
+  &.map-info {
+    width: 350px;
+    height: 200px;
+    border: 5px solid #f7d825;
   }
 `;
